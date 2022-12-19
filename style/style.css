@@ -5,3 +5,32 @@
 .col-10 {
   background-color: #f0f4ff;
 }
+
+.nav-item {
+  font-size: 14px;
+  margin: 5px 0px;
+  font-weight: 500;
+}
+.logo {
+  margin-left: 10px;
+  margin-top: 15px;
+}
+
+.nav-link {
+  color: #798089 !important;
+  text-decoration: none;
+}
+
+.nav-link:focus {
+  color: #2b2e2d !important;
+}
+
+.nav-link:focus i {
+  color: #8a8acb !important;
+}
+
+.modal {
+  width: 610px;
+  height: 445px;
+  color: #fff;
+}
