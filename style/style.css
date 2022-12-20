@@ -4,6 +4,7 @@
 }
 .col-md-2 {
   background-color: #fff;
+  height: 100%;
 }
 
 .col-md-10 {
@@ -56,13 +57,18 @@ select {
   border-radius: 0.25rem;
   transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
-
+select {
+  color: #d3d3d3 !important;
+  text-align: left;
+}
 .fa-circle-exclamation {
   font-size: 4rem;
   margin-right: 15px;
   color: #8a8acb !important;
 }
-
+.form-control {
+  background-color: gainsboro !important;
+}
 .input-group-text {
   background-color: #6666cc !important;
   color: #fff !important;
@@ -81,4 +87,18 @@ select {
 }
 .btn-primary {
   background-color: #50c878 !important;
+  margin-top: 4rem;
+}
+
+.btn-lg {
+  font-size: 0.6rem !important;
+  width: 10rem;
+  letter-spacing: 0.01rem;
+}
+.btn-lg i {
+  font-weight: 900;
+}
+.modal-content {
+  background-color: rgba(0, 0, 0, 0);
+  border: none;
 }
