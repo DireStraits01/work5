@@ -8,6 +8,7 @@ body {
 }
 .nav_bar {
   background-color: #fff;
+  min-width: 10rem;
   height: 45rem;
 }
 
@@ -141,6 +142,8 @@ select {
   text-align: center;
 }
 
+@media screen and (max-width: 600px) {
+}
 .message {
   display: flex;
   height: 3rem;
