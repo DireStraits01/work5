@@ -22,69 +22,120 @@
     <title>Document</title>
   </head>
   <body>
-    <div class="row">
-      <div class="col-2">
-        <div class="logo">
-          <img src="/img/work5.png" alt="" width="88px" />
-        </div>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-12 col-sm-6 col-md-2">
+          <div class="logo">
+            <img src="/img/work5.png" alt="" width="88px" />
+          </div>
 
-        <ul class="nav flex-column">
-          <li class="nav-item">
-            <a class="nav-link active" href="#">
-              <i class="fa-solid fa-house"></i> &nbsp; &nbsp;Главная</a
-            >
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#"
-              ><i class="fa-solid fa-cart-shopping"></i>&nbsp; &nbsp;Мои
-              магазины</a
-            >
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#"
-              ><i class="fa-solid fa-bullhorn"></i>&nbsp;
-              &nbsp;Промоматериалы</a
-            >
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#"
-              ><i class="fa-solid fa-chart-pie"></i>&nbsp; &nbsp;Статистика</a
-            >
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#"
-              ><i class="fa-solid fa-wallet"></i>&nbsp; &nbsp;Баланс</a
-            >
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#"
-              ><i class="fa-solid fa-user"></i>&nbsp; &nbsp;Персональные
-              данные</a
-            >
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#"
-              ><i class="fa-solid fa-circle-question"></i>&nbsp; &nbsp;FAQ</a
-            >
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#"
-              ><i class="fa-solid fa-headset"></i>&nbsp; &nbsp;Техподдержка</a
-            >
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#"
-              ><i class="fa-solid fa-arrow-right-from-bracket"></i>&nbsp;
-              &nbsp;Выход</a
-            >
-          </li>
-        </ul>
-      </div>
-      <div class="col-10">
-        <div class="modal">h</div>
+          <ul class="nav flex-column">
+            <li class="nav-item">
+              <a class="nav-link active" href="#">
+                <i class="fa-solid fa-house"></i> &nbsp; &nbsp;Главная</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"
+                ><i class="fa-solid fa-cart-shopping"></i>&nbsp; &nbsp;Мои
+                магазины</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"
+                ><i class="fa-solid fa-bullhorn"></i>&nbsp;
+                &nbsp;Промоматериалы</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"
+                ><i class="fa-solid fa-chart-pie"></i>&nbsp; &nbsp;Статистика</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"
+                ><i class="fa-solid fa-wallet"></i>&nbsp; &nbsp;Баланс</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"
+                ><i class="fa-solid fa-user"></i>&nbsp; &nbsp;Персональные
+                данные</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"
+                ><i class="fa-solid fa-circle-question"></i>&nbsp; &nbsp;FAQ</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"
+                ><i class="fa-solid fa-headset"></i>&nbsp; &nbsp;Техподдержка</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"
+                ><i class="fa-solid fa-arrow-right-from-bracket"></i>&nbsp;
+                &nbsp;Выход</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="col-12 col-ms-6 col-md-10">
+          <div class="modal-op">
+            <div class="wrap modal__header">
+              <h6>Создать магазин</h6>
+              <i class="fa-solid fa-xmark"></i>
+            </div>
+            <div class="wrap modal__selects">
+              <div class="modal__select">
+                <p>Шаблон</p>
+                <select name="" id="">
+                  <option value="">Стандартный</option>
+                </select>
+              </div>
+              <div class="modal__select">
+                <p>Цветовая схема</p>
+                <select name="" id="">
+                  <option value="">Классическая</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="modal__input">
+              <p>Домен</p>
+              <div class="input-group mb-3">
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="Recipient's username"
+                  aria-label="Recipient's username"
+                  aria-describedby="basic-addon2"
+                />
+                <div class="input-group-append">
+                  <span class="input-group-text" id="basic-addon2"
+                    >@example.com</span
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="wrap modal__text">
+              <i class="fa-solid fa-circle-exclamation"></i>
+              <p>
+                В названии домена разрешены латиница и "-", и запрещвется
+                использовать словочетание Work 5. После создания магазина Вы
+                сможете прикрутить свой домен(например ivangrozniy.ru).
+                Подробнее по <span>по ссылке</span>
+              </p>
+            </div>
+            <div class="wrap modal__buttons">
+              <button>Отмена</button>
+              <button>Создать</button>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
-
     <script
       src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
       integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
