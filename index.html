@@ -36,8 +36,15 @@
               >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#" type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
-               <i class="fa-solid fa-cart-shopping"></i>&nbsp; &nbsp;Мои
+              <a
+                class="nav-link"
+                href="#"
+                type="button"
+                class="btn btn-primary"
+                data-bs-toggle="modal"
+                data-bs-target="#staticBackdrop"
+              >
+                <i class="fa-solid fa-cart-shopping"></i>&nbsp; &nbsp;Мои
                 магазины</a
               >
             </li>
@@ -82,63 +89,86 @@
           </ul>
         </div>
         <div class="col-12 col-ms-6 col-md-10">
-            <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-                <div class="modal-dialog">
-                  <div class="modal-content">
-                    <div class="modal-header">
-                      <h1 class="modal-title fs-5" id="staticBackdropLabel">Создать магазин</h1>
-                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          <div
+            class="modal fade"
+            id="staticBackdrop"
+            data-bs-backdrop="static"
+            data-bs-keyboard="false"
+            tabindex="-1"
+            aria-labelledby="staticBackdropLabel"
+            aria-hidden="true"
+          >
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header border-0">
+                  <h6 class="modal-title fs-5" id="staticBackdropLabel">
+                    Создать магазин
+                  </h6>
+                  <button
+                    type="button"
+                    class="btn-close"
+                    data-bs-dismiss="modal"
+                    aria-label="Close"
+                  ></button>
+                </div>
+                <div class="modal-body">
+                  <div class="wrap modal__selects">
+                    <div class="modal__select">
+                      <p>Шаблон</p>
+                      <select name="" id="">
+                        <option value="">Стандартный</option>
+                      </select>
                     </div>
-                    <div class="modal-body">
-                        <div class="wrap modal__selects">
-                            <div class="modal__select">
-                              <p>Шаблон</p>
-                              <select name="" id="">
-                                <option value="">Стандартный</option>
-                              </select>
-                            </div>
-                            <div class="modal__select">
-                              <p>Цветовая схема</p>
-                              <select name="" id="">
-                                <option value="">Классическая</option>
-                              </select>
-                            </div>
-                          </div>
-                          <div class="modal__input">
-                            <p>Домен</p>
-                            <div class="input-group mb-3">
-                              <input
-                                type="text"
-                                class="form-control"
-                                placeholder="Recipient's username"
-                                aria-label="Recipient's username"
-                                aria-describedby="basic-addon2"
-                              />
-                              <div class="input-group-append">
-                                <span class="input-group-text" id="basic-addon2"
-                                  >@example.com</span
-                                >
-                              </div>
-                            </div>
-                          </div>
-                          <div class="wrap modal__text">
-                            <i class="fa-solid fa-circle-exclamation"></i>
-                            <p>
-                              В названии домена разрешены латиница и "-", и запрещвется
-                              использовать словочетание Work 5. После создания магазина Вы
-                              сможете прикрутить свой домен(например ivangrozniy.ru).
-                              Подробнее по <span>по ссылке</span>
-                            </p>
-                          </div>
-                    </div>
-                    <div class="modal-footer">
-                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Отмена</button>
-                      <button type="button" class="btn btn-primary">Создать</button>
+                    <div class="modal__select">
+                      <p>Цветовая схема</p>
+                      <select name="" id="">
+                        <option value="">Классическая</option>
+                      </select>
                     </div>
                   </div>
+                  <div class="modal__input">
+                    <p>Домен</p>
+                    <div class="input-group mb-3">
+                      <input
+                        type="text"
+                        class="form-control"
+                        placeholder="например: ivangrozniy"
+                        aria-label="Recipient's username"
+                        aria-describedby="basic-addon2"
+                      />
+                      <div class="input-group-append">
+                        <span class="input-group-text" id="basic-addon2"
+                          >.work5.ru</span
+                        >
+                      </div>
+                    </div>
+                  </div>
+                  <div class="wrap modal__text">
+                    <i class="fa-solid fa-circle-exclamation"></i>
+                    <p>
+                      В названии домена разрешены латиница и "-", и запрещвется
+                      использовать словочетание Work 5. После создания магазина
+                      Вы сможете прикрутить свой домен(например ivangrozniy.ru).
+                      Подробнее по <span>по ссылке</span>
+                    </p>
+                  </div>
+                </div>
+                <div class="modal-footer border-0">
+                  <button
+                    type="button"
+                    class="btn btn-secondary btn-sm"
+                    data-bs-dismiss="modal"
+                  >
+                    Отмена
+                  </button>
+                  <button type="button" class="btn btn-primary btn-sm">
+                    Создать
+                  </button>
                 </div>
               </div>
-        
+            </div>
+          </div>
+        </div>
       </div>
     </div>
     <script
