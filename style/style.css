@@ -9,12 +9,9 @@ body {
 .nav_bar {
   background-color: #fff;
   min-width: 10rem;
-  height: 45rem;
+  height: 100vh;
+  border-radius: none;
 }
-
-/* .col-md-10 {
-  background-color: #f0f4ff;
-} */
 
 .nav-item {
   font-size: 0.8rem;
@@ -156,6 +153,36 @@ select {
   font-size: 1.2rem;
   color: #c0c0c0;
 }
+
+/*__edit_buttons__*/
+.edit-box {
+  margin-top: 12.2rem;
+  height: 13.75rem;
+  width: 24rem;
+  background-color: #fff;
+  padding: 1.2rem;
+}
+
+.edit-box__buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.edit-box__btn-green,
+.edit-box__btn-gray {
+  width: 9rem;
+  height: 2rem;
+  background-color: #50c878 !important;
+  color: #fff;
+  border: none;
+  font-size: 0.7rem;
+  margin: 1rem;
+  text-align: center;
+}
+.edit-box__btn-gray {
+  background-color: #c0c0c0 !important;
+}
+
 @media screen and (max-width: 768px) {
   .profile {
     display: block;
@@ -166,7 +193,7 @@ select {
     justify-content: center;
     align-items: center;
     width: 5rem;
-    height: 8rem;
+    height: 100%;
   }
   .btn-modal-open {
     width: 2rem;
