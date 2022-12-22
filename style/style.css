@@ -185,22 +185,26 @@ select {
 
 @media screen and (max-width: 768px) {
   .profile {
-    display: block;
-    margin: 50%;
+    margin-left: 15%;
   }
   .user-info {
     display: block;
     justify-content: center;
     align-items: center;
     width: 5rem;
-    height: 100%;
+    height: 8rem;
+    margin-bottom: 0.5rem;
   }
   .btn-modal-open {
     width: 2rem;
     height: 2rem;
-    margin: 50%;
+    margin-left: 50%;
   }
   .btn-modal-open span {
     font-size: 0;
+  }
+
+  .edit-box {
+    margin: 0 auto;
   }
 }
